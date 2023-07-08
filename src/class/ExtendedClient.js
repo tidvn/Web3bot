@@ -28,7 +28,7 @@ module.exports = class extends Client {
             ],
             presence: {
                 activities: [{
-                    name: 'DiscordJS-V14-Bot-Template v2'
+                    name: 'Create By Đắng'
                 }]
             }
         });

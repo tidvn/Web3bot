@@ -4,17 +4,22 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Wow is this a test?\" && exit 1",
+    "server": "node server/index.js",
     "start": "node .",
-    "git": "git add . && git commit -m \"Git auto\""
+    "dev": "nodemon .",
+    "dev1": "nodemon . & nodemon server/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@meshsdk/core": "^1.5.4",
     "chalk": "^2.4.2",
+    "crypto-js": "^4.1.1",
     "discord.js": "^14.11.0",
     "dotenv": "^16.3.1",
-    "mongoose": "^7.3.1"
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22"
   }
 }
